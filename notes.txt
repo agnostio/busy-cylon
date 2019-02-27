@@ -1,0 +1,3 @@
+terminalizer record demo
+terminalizer play demo
+terminalizer render demo

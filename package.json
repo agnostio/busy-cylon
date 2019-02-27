@@ -1,0 +1,22 @@
+{
+  "name": "busy-cylon",
+  "version": "1.0.4",
+  "description": "Cylon ===================",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agnostio/busy-cylon.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/agnostio/busy-cylon/issues"
+  },
+  "homepage": "https://github.com/agnostio/busy-cylon#readme",
+  "dependencies": {
+    "x-con": "^4.0.1"
+  }
+}

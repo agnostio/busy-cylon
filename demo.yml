@@ -1,0 +1,1049 @@
+# The configurations that used for the recording, feel free to edit them
+config:
+
+  # Specify a command to be executed
+  # like `/bin/bash -l`, `ls`, or any other commands
+  # the default is bash for Linux
+  # or powershell.exe for Windows
+  command: bash -l
+  
+  # Specify the current working directory path
+  # the default is the current working directory path
+  cwd: /Users/adammeola/repos/local_repos/random/node/busy-cylon
+  
+  # Export additional ENV variables
+  env:
+    recording: true
+  
+  # Explicitly set the number of columns
+  # or use `auto` to take the current
+  # number of columns of your shell
+  cols: 76
+  
+  # Explicitly set the number of rows
+  # or use `auto` to take the current
+  # number of rows of your shell
+  rows: 14
+  
+  # Amount of times to repeat GIF
+  # If value is -1, play once
+  # If value is 0, loop indefinitely
+  # If value is a positive number, loop n times
+  repeat: 0
+  
+  # Quality
+  # 1 - 100
+  quality: 100
+  
+  # Delay between frames in ms
+  # If the value is `auto` use the actual recording delays
+  frameDelay: auto
+  
+  # Maximum delay between frames in ms
+  # Ignored if the `frameDelay` isn't set to `auto`
+  # Set to `auto` to prevent limiting the max idle time
+  maxIdleTime: 2000
+  
+  # The surrounding frame box
+  # The `type` can be null, window, floating, or solid`
+  # To hide the title use the value null
+  # Don't forget to add a backgroundColor style with a null as type
+  frameBox:
+    type: floating
+    title: Terminalizer
+    style:
+      border: 0px black solid
+      # boxShadow: none
+      # margin: 0px
+  
+  # Add a watermark image to the rendered gif
+  # You need to specify an absolute path for
+  # the image on your machine or a URL, and you can also
+  # add your own CSS styles
+  watermark:
+    imagePath: null
+    style:
+      position: absolute
+      right: 15px
+      bottom: 15px
+      width: 100px
+      opacity: 0.9
+  
+  # Cursor style can be one of
+  # `block`, `underline`, or `bar`
+  cursorStyle: block
+  
+  # Font family
+  # You can use any font that is installed on your machine
+  # in CSS-like syntax
+  fontFamily: "Monaco, Lucida Console, Ubuntu Mono, Monospace"
+  
+  # The size of the font
+  fontSize: 12
+  
+  # The height of lines
+  lineHeight: 1
+  
+  # The spacing between letters
+  letterSpacing: 0
+  
+  # Theme
+  theme:
+    background: "transparent"
+    foreground: "#afafaf"
+    cursor: "#c7c7c7"
+    black: "#232628"
+    red: "#fc4384"
+    green: "#b3e33b"
+    yellow: "#ffa727"
+    blue: "#75dff2"
+    magenta: "#ae89fe"
+    cyan: "#708387"
+    white: "#d5d5d0"
+    brightBlack: "#626566"
+    brightRed: "#ff7fac"
+    brightGreen: "#c8ed71"
+    brightYellow: "#ebdf86"
+    brightBlue: "#75dff2"
+    brightMagenta: "#ae89fe"
+    brightCyan: "#b1c6ca"
+    brightWhite: "#f9f9f4"
+  
+# Records, feel free to edit them
+records:
+  - delay: 3033
+    content: "\e]7;file://Adams-MBP.home/Users/adammeola/repos/local_repos/random/node/busy-cylon\a\e[?1034hAdams-MBP:busy-cylon adammeola$ "
+  - delay: 913
+    content: 'n'
+  - delay: 669
+    content: p
+  - delay: 97
+    content: m
+  - delay: 596
+    content: ' '
+  - delay: 608
+    content: r
+  - delay: 507
+    content: u
+  - delay: 111
+    content: 'n'
+  - delay: 730
+    content: ' '
+  - delay: 1332
+    content: t
+  - delay: 200
+    content: e
+  - delay: 384
+    content: s
+  - delay: 168
+    content: t
+  - delay: 412
+    content: ']'
+  - delay: 823
+    content: "\b\e[K"
+  - delay: 483
+    content: "\r\n"
+  - delay: 301
+    content: "\r\n> busy-cylon@1.0.4 test /Users/adammeola/repos/local_repos/random/node/busy-cylon\r\n> node test\r\n\r\n"
+  - delay: 102
+    content: "turning cylon on\r\n\e[1G\e[2K\e[1m\e[48;5;233m\e[38;5;231m        DEFAULT CYLON                 \e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;231m\e[39m\e[49m\e[22m\r\n\r\n\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m        [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;196m       ░▒▒░░      \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                      \e[39m\e[49m\e[22m\r\n"
+  - delay: 81
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m        [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;196m        ░▒▒░░     \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                      \e[39m\e[49m\e[22m\r\n"
+  - delay: 81
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m        [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;196m         ░▒▒░░    \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                      \e[39m\e[49m\e[22m\r\n"
+  - delay: 82
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m        [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;196m          ░███░   \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                      \e[39m\e[49m\e[22m\r\n"
+  - delay: 83
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m        [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;196m           ░███░  \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                      \e[39m\e[49m\e[22m\r\n"
+  - delay: 83
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m        [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;196m            ░███░ \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                      \e[39m\e[49m\e[22m\r\n"
+  - delay: 82
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m        [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;196m             ░▒█░░\e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                      \e[39m\e[49m\e[22m\r\n"
+  - delay: 82
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m        [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;196m            ░▒█░░ \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                      \e[39m\e[49m\e[22m\r\n"
+  - delay: 80
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m        [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;196m           ░▒█░░  \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                      \e[39m\e[49m\e[22m\r\n"
+  - delay: 84
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m        [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;196m          ░░█▒░   \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                      \e[39m\e[49m\e[22m\r\n"
+  - delay: 82
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m        [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;196m         ░░█▒░    \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                      \e[39m\e[49m\e[22m\r\n"
+  - delay: 83
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m        [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;196m        ░░█▒░     \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                      \e[39m\e[49m\e[22m\r\n"
+  - delay: 81
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m        [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;196m       ░▒▒░░      \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                      \e[39m\e[49m\e[22m\r\n"
+  - delay: 83
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m        [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;196m      ░▒▒░░       \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                      \e[39m\e[49m\e[22m\r\n"
+  - delay: 83
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m        [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;196m     ░▒▒░░        \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                      \e[39m\e[49m\e[22m\r\n"
+  - delay: 82
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m        [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;196m    ░░▒▒░         \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                      \e[39m\e[49m\e[22m\r\n"
+  - delay: 82
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m        [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;196m   ░░▒▒░          \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                      \e[39m\e[49m\e[22m\r\n"
+  - delay: 83
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m        [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;196m  ░░▒▒░           \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                      \e[39m\e[49m\e[22m\r\n"
+  - delay: 79
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m        [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;196m ░▒▒▒░            \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                      \e[39m\e[49m\e[22m\r\n"
+  - delay: 84
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m        [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;196m░▒▒▒░             \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                      \e[39m\e[49m\e[22m\r\n"
+  - delay: 83
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m        [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;196m ░▒▒▒░            \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                      \e[39m\e[49m\e[22m\r\n"
+  - delay: 83
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m        [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;196m  ░▒▒░░           \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                      \e[39m\e[49m\e[22m\r\n"
+  - delay: 83
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m        [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;196m   ░▒▒░░          \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                      \e[39m\e[49m\e[22m\r\n"
+  - delay: 81
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m        [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;196m    ░▒▒░░         \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                      \e[39m\e[49m\e[22m\r\n"
+  - delay: 84
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m        [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;196m     ░███░        \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                      \e[39m\e[49m\e[22m\r\n"
+  - delay: 81
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m        [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;196m      ░███░       \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                      \e[39m\e[49m\e[22m\r\n"
+  - delay: 83
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m        [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;196m       ░███░      \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                      \e[39m\e[49m\e[22m\r\n"
+  - delay: 83
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m        [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;196m        ░▒█░░     \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                      \e[39m\e[49m\e[22m\r\n"
+  - delay: 83
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m        [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;196m         ░▒█░░    \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                      \e[39m\e[49m\e[22m\r\n"
+  - delay: 83
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m        [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;196m          ░▒█░░   \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                      \e[39m\e[49m\e[22m\r\n"
+  - delay: 83
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m        [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;196m           ░░█▒░  \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                      \e[39m\e[49m\e[22m\r\n"
+  - delay: 83
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m        [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;196m            ░░█▒░ \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                      \e[39m\e[49m\e[22m\r\n"
+  - delay: 79
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m        [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;196m             ░░█▒░\e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                      \e[39m\e[49m\e[22m\r\n"
+  - delay: 83
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m        [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;196m            ░▒▒░░ \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                      \e[39m\e[49m\e[22m\r\n"
+  - delay: 80
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m        [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;196m           ░▒▒░░  \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                      \e[39m\e[49m\e[22m\r\n"
+  - delay: 84
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m        [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;196m          ░▒▒░░   \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                      \e[39m\e[49m\e[22m\r\n"
+  - delay: 83
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m        [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;196m         ░░▒▒░    \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                      \e[39m\e[49m\e[22m\r\n"
+  - delay: 80
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m        [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;196m        ░░▒▒░     \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                      \e[39m\e[49m\e[22m\r\n"
+  - delay: 83
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m        [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;196m       ░░▒▒░      \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                      \e[39m\e[49m\e[22m\r\n"
+  - delay: 82
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m        [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;196m      ░▒▒▒░       \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                      \e[39m\e[49m\e[22m\r\n"
+  - delay: 83
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m        [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;196m     ░▒▒▒░        \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                      \e[39m\e[49m\e[22m\r\n"
+  - delay: 80
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m        [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;196m    ░▒▒▒░         \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                      \e[39m\e[49m\e[22m\r\n"
+  - delay: 84
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m        [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;196m   ░▒▒░░          \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                      \e[39m\e[49m\e[22m\r\n"
+  - delay: 85
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m        [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;196m  ░▒▒░░           \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                      \e[39m\e[49m\e[22m\r\n"
+  - delay: 81
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m        [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;196m ░▒▒░░            \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                      \e[39m\e[49m\e[22m\r\n"
+  - delay: 83
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m        [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;196m░███░             \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                      \e[39m\e[49m\e[22m\r\n"
+  - delay: 80
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m        [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;196m ░███░            \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                      \e[39m\e[49m\e[22m\r\n"
+  - delay: 80
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m        [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;196m  ░███░           \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                      \e[39m\e[49m\e[22m\r\n"
+  - delay: 80
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m        [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;196m   ░▒█░░          \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                      \e[39m\e[49m\e[22m\r\n"
+  - delay: 79
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m        [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;196m    ░▒█░░         \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                      \e[39m\e[49m\e[22m\r\n"
+  - delay: 82
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m        [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;196m     ░▒█░░        \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                      \e[39m\e[49m\e[22m\r\n"
+  - delay: 81
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m        [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;196m      ░░█▒░       \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                      \e[39m\e[49m\e[22m\r\n"
+  - delay: 83
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m        [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;196m       ░░█▒░      \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                      \e[39m\e[49m\e[22m\r\n"
+  - delay: 83
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m        [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;196m        ░░█▒░     \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                      \e[39m\e[49m\e[22m\r\n"
+  - delay: 82
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m        [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;196m         ░▒▒░░    \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                      \e[39m\e[49m\e[22m\r\n"
+  - delay: 82
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m        [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;196m          ░▒▒░░   \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                      \e[39m\e[49m\e[22m\r\n"
+  - delay: 82
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m        [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;196m           ░▒▒░░  \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                      \e[39m\e[49m\e[22m\r\n"
+  - delay: 82
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m        [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;196m            ░░▒▒░ \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                      \e[39m\e[49m\e[22m\r\n"
+  - delay: 83
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m        [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;196m             ░░▒▒░\e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                      \e[39m\e[49m\e[22m\r\n"
+  - delay: 82
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m        [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;196m            ░░▒▒░ \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                      \e[39m\e[49m\e[22m\r\n"
+  - delay: 81
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m        [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;196m           ░▒▒▒░  \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                      \e[39m\e[49m\e[22m\r\n"
+  - delay: 86
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m        [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;196m          ░▒▒▒░   \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                      \e[39m\e[49m\e[22m\r\n"
+  - delay: 81
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m        [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;196m         ░▒▒▒░    \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                      \e[39m\e[49m\e[22m\r\n"
+  - delay: 82
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m        [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;196m        ░▒▒░░     \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                      \e[39m\e[49m\e[22m\r\n"
+  - delay: 83
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m        [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;196m       ░▒▒░░      \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                      \e[39m\e[49m\e[22m\r\n"
+  - delay: 83
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m        [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;196m      ░▒▒░░       \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                      \e[39m\e[49m\e[22m\r\n"
+  - delay: 82
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m        [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;196m     ░███░        \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                      \e[39m\e[49m\e[22m\r\n"
+  - delay: 84
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m        [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;196m    ░███░         \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                      \e[39m\e[49m\e[22m\r\n"
+  - delay: 83
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m        [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;196m   ░███░          \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                      \e[39m\e[49m\e[22m\r\n"
+  - delay: 81
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m        [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;196m  ░▒█░░           \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                      \e[39m\e[49m\e[22m\r\n"
+  - delay: 82
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m        [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;196m ░▒█░░            \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                      \e[39m\e[49m\e[22m\r\n"
+  - delay: 83
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m        [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;196m░▒█░░             \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                      \e[39m\e[49m\e[22m\r\n"
+  - delay: 83
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m        [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;196m ░░█▒░            \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                      \e[39m\e[49m\e[22m\r\n"
+  - delay: 82
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m        [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;196m  ░░█▒░           \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                      \e[39m\e[49m\e[22m\r\n"
+  - delay: 81
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m        [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;196m   ░░█▒░          \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                      \e[39m\e[49m\e[22m\r\n"
+  - delay: 81
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m        [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;196m    ░▒▒░░         \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                      \e[39m\e[49m\e[22m\r\n"
+  - delay: 85
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m        [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;196m     ░▒▒░░        \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                      \e[39m\e[49m\e[22m\r\n"
+  - delay: 80
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m        [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;196m      ░▒▒░░       \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                      \e[39m\e[49m\e[22m\r\n"
+  - delay: 82
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m        [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;196m       ░░▒▒░      \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                      \e[39m\e[49m\e[22m\r\n"
+  - delay: 85
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m        [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;196m        ░░▒▒░     \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                      \e[39m\e[49m\e[22m\r\n"
+  - delay: 82
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m        [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;196m         ░░▒▒░    \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                      \e[39m\e[49m\e[22m\r\n"
+  - delay: 83
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m        [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;196m          ░▒▒▒░   \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                      \e[39m\e[49m\e[22m\r\n"
+  - delay: 81
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m        [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;196m           ░▒▒▒░  \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                      \e[39m\e[49m\e[22m\r\n"
+  - delay: 82
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m        [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;196m            ░▒▒▒░ \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                      \e[39m\e[49m\e[22m\r\n"
+  - delay: 83
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m        [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;196m             ░▒▒░░\e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                      \e[39m\e[49m\e[22m\r\n"
+  - delay: 29
+    content: "cylon is off\r\n"
+  - delay: 2002
+    content: "turning cylon on\r\n\e[1G\e[2K\e[1m\e[48;5;233m\e[38;5;77m                                                     \e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;77m                                                     \e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;77m                jibberish                            \e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;77m                    for                              \e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;77m                        my                           \e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;77m                test                                 \e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;77m                                                     \e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;77m                                                     \e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;77m\e[39m\e[49m\e[22m\r\n\r\n\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;62m          ░▒▒░░          \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 45
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;62m           ░▒▒░░         \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 39
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;62m            ░▒▒░░        \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 44
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;62m             ░███░       \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 40
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;62m              ░███░      \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 43
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;62m               ░███░     \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 44
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;62m                ░▒█░░    \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 42
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;62m                 ░▒█░░   \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 44
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;62m                  ░▒█░░  \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 41
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;62m                   ░░█▒░ \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 45
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;62m                    ░░█▒░\e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 45
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;62m                   ░░█▒░ \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 39
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;62m                  ░▒▒░░  \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 44
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;62m                 ░▒▒░░   \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 41
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;62m                ░▒▒░░    \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 42
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;62m               ░░▒▒░     \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 45
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;62m              ░░▒▒░      \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 40
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;62m             ░░▒▒░       \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 43
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;62m            ░▒▒▒░        \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 39
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;62m           ░▒▒▒░         \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 44
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;62m          ░▒▒▒░          \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 39
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;62m         ░▒▒░░           \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 43
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;62m        ░▒▒░░            \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 40
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;62m       ░▒▒░░             \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 42
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;62m      ░███░              \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 40
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;62m     ░███░               \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 40
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;62m    ░███░                \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 42
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;62m   ░▒█░░                 \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 43
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;62m  ░▒█░░                  \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 40
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;62m ░▒█░░                   \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 41
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;62m░░█▒░                    \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 40
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;62m ░░█▒░                   \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 42
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;62m  ░░█▒░                  \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 40
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;62m   ░▒▒░░                 \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 41
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;62m    ░▒▒░░                \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 40
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;62m     ░▒▒░░               \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 43
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;62m      ░░▒▒░              \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 39
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;62m       ░░▒▒░             \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 44
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;62m        ░░▒▒░            \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 40
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;62m         ░▒▒▒░           \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 41
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;62m          ░▒▒▒░          \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 44
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;62m           ░▒▒▒░         \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 42
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;62m            ░▒▒░░        \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 43
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;62m             ░▒▒░░       \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 41
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;62m              ░▒▒░░      \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 39
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;62m               ░███░     \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 39
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;62m                ░███░    \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 44
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;62m                 ░███░   \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 6
+    content: "\e[1G\e[2K\e[1m\e[48;5;233m\e[38;5;185m                                                     \e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;185m                                                     \e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;185m                jibberish                            \e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;185m                    for                              \e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;185m                        my                           \e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;185m                test                                 \e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;185m                                                     \e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;185m                                                     \e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;185m\e[39m\e[49m\e[22m\r\n\r\n\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m          ░▒▒░░          \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 44
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m           ░▒█░░         \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 46
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m            ░▒█░░        \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 41
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m             ░▒█░░       \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 43
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m              ░░█▒░      \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 39
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m               ░░█▒░     \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 40
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m                ░░█▒░    \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 44
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m                 ░▒▒░░   \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 43
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m                  ░▒▒░░  \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 41
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m                   ░▒▒░░ \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 38
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m                    ░░▒▒░\e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 39
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m                   ░░▒▒░ \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 33
+    content: "this line exists 3 times, and serves as a warning of this very thing\r\nthis line exists 3 times, and serves as a warning of this very thing\r\nthis line exists 3 times, and serves as a warning of this very thing\r\n"
+  - delay: 7
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m                  ░░▒▒░  \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 40
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m                 ░▒▒▒░   \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 41
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m                ░▒▒▒░    \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 41
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m               ░▒▒▒░     \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 41
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m              ░▒▒░░      \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 42
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m             ░▒▒░░       \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 42
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m            ░▒▒░░        \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 41
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m           ░███░         \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 39
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m          ░███░          \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 43
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m         ░███░           \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 42
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m        ░▒█░░            \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 41
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m       ░▒█░░             \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 42
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m      ░▒█░░              \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 39
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m     ░░█▒░               \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 38
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m    ░░█▒░                \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 39
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m   ░░█▒░                 \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 43
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m  ░▒▒░░                  \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 42
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m ░▒▒░░                   \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 39
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m░▒▒░░                    \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 44
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m ░░▒▒░                   \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 42
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m  ░░▒▒░                  \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 40
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m   ░░▒▒░                 \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 39
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m    ░▒▒▒░                \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 41
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m     ░▒▒▒░               \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 42
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m      ░▒▒▒░              \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 42
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m       ░▒▒░░             \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 43
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m        ░▒▒░░            \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 41
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m         ░▒▒░░           \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 41
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m          ░███░          \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 41
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m           ░███░         \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 45
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m            ░███░        \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 44
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m             ░▒█░░       \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 42
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m              ░▒█░░      \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 42
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m               ░▒█░░     \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 40
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m                ░░█▒░    \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 41
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m                 ░░█▒░   \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 42
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m                  ░░█▒░  \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 42
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m                   ░▒▒░░ \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 40
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m                    ░▒▒░░\e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 39
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m                   ░▒▒░░ \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 40
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m                  ░░▒▒░  \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 40
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m                 ░░▒▒░   \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 41
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m                ░░▒▒░    \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 39
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m               ░▒▒▒░     \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 40
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m              ░▒▒▒░      \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 41
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m             ░▒▒▒░       \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 42
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m            ░▒▒░░        \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 44
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m           ░▒▒░░         \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 40
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m          ░▒▒░░          \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 44
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m         ░███░           \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 40
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m        ░███░            \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 44
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m       ░███░             \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 39
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m      ░▒█░░              \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 42
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m     ░▒█░░               \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 44
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m    ░▒█░░                \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 41
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m   ░░█▒░                 \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 39
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m  ░░█▒░                  \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 42
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m ░░█▒░                   \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 39
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m░▒▒░░                    \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 43
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m ░▒▒░░                   \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 41
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m  ░▒▒░░                  \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 44
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m   ░░▒▒░                 \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 39
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m    ░░▒▒░                \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 39
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m     ░░▒▒░               \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 41
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m      ░▒▒▒░              \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 41
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m       ░▒▒▒░             \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 40
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m        ░▒▒▒░            \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 43
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m         ░▒▒░░           \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 40
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m          ░▒▒░░          \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 39
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m           ░▒▒░░         \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 40
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m            ░███░        \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 41
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m             ░███░       \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 40
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m              ░███░      \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 41
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m               ░▒█░░     \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 40
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m                ░▒█░░    \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 40
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m                 ░▒█░░   \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 41
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m                  ░░█▒░  \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 40
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m                   ░░█▒░ \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 43
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m                    ░░█▒░\e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 40
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m                   ░▒▒░░ \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 43
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m                  ░▒▒░░  \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 40
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m                 ░▒▒░░   \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 43
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m                ░░▒▒░    \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 45
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m               ░░▒▒░     \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 40
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m              ░░▒▒░      \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 43
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m             ░▒▒▒░       \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 43
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m            ░▒▒▒░        \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 40
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m           ░▒▒▒░         \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 39
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m          ░▒▒░░          \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 42
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m         ░▒▒░░           \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 39
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m        ░▒▒░░            \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 42
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m       ░███░             \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 40
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m      ░███░              \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 41
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m     ░███░               \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 43
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m    ░▒█░░                \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 40
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m   ░▒█░░                 \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 41
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m  ░▒█░░                  \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 41
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m ░░█▒░                   \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 41
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m░░█▒░                    \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 40
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m ░░█▒░                   \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 41
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m  ░▒▒░░                  \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 41
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m   ░▒▒░░                 \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 42
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m    ░▒▒░░                \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 43
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m     ░░▒▒░               \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 40
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m      ░░▒▒░              \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 45
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m       ░░▒▒░             \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 41
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m        ░▒▒▒░            \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 42
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m         ░▒▒▒░           \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 41
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m          ░▒▒▒░          \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 43
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m           ░▒▒░░         \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 44
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m            ░▒▒░░        \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 42
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m             ░▒▒░░       \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 41
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m              ░███░      \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 41
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m               ░███░     \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 43
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m                ░███░    \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 41
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m                 ░▒█░░   \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 41
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m                  ░▒█░░  \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 39
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m                   ░▒█░░ \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 44
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m                    ░░█▒░\e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 39
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m                   ░░█▒░ \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 44
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m                  ░░█▒░  \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 40
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m                 ░▒▒░░   \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 41
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m                ░▒▒░░    \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 40
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m               ░▒▒░░     \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 42
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m              ░░▒▒░      \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 40
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m             ░░▒▒░       \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 45
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m            ░░▒▒░        \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 40
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m           ░▒▒▒░         \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 42
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m          ░▒▒▒░          \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 39
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m         ░▒▒▒░           \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 44
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m        ░▒▒░░            \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 38
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m       ░▒▒░░             \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 45
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m      ░▒▒░░              \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 40
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m     ░███░               \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 41
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m    ░███░                \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 39
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m   ░███░                 \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 42
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m  ░▒█░░                  \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 39
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m ░▒█░░                   \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 44
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m░▒█░░                    \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 40
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m ░░█▒░                   \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 43
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m  ░░█▒░                  \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 40
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m   ░░█▒░                 \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 42
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m    ░▒▒░░                \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 39
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m     ░▒▒░░               \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 43
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m      ░▒▒░░              \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 40
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m       ░░▒▒░             \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 43
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m        ░░▒▒░            \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 39
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m         ░░▒▒░           \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 42
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m          ░▒▒▒░          \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 39
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m           ░▒▒▒░         \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 42
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m            ░▒▒▒░        \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 39
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m             ░▒▒░░       \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 39
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m              ░▒▒░░      \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 41
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m               ░▒▒░░     \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 39
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m                ░███░    \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 42
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m                 ░███░   \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 45
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m                  ░███░  \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 40
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m                   ░▒█░░ \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 43
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m                    ░▒█░░\e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 40
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m                   ░▒█░░ \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 42
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m                  ░░█▒░  \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 40
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m                 ░░█▒░   \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 43
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m                ░░█▒░    \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 39
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m               ░▒▒░░     \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 42
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m              ░▒▒░░      \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 40
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m             ░▒▒░░       \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 43
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m            ░░▒▒░        \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 39
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m           ░░▒▒░         \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 43
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m          ░░▒▒░          \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 37
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m         ░▒▒▒░           \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 41
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m        ░▒▒▒░            \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 38
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m       ░▒▒▒░             \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 43
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m      ░▒▒░░              \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 41
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m     ░▒▒░░               \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 43
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m    ░▒▒░░                \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 39
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m   ░███░                 \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 45
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m  ░███░                  \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 39
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m ░███░                   \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 44
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m░▒█░░                    \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 39
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m ░▒█░░                   \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 45
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m  ░▒█░░                  \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 43
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m   ░░█▒░                 \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 42
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m    ░░█▒░                \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 43
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m     ░░█▒░               \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 40
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m      ░▒▒░░              \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 41
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m       ░▒▒░░             \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 40
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m        ░▒▒░░            \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 41
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m         ░░▒▒░           \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 43
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m          ░░▒▒░          \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 39
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m           ░░▒▒░         \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 40
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m            ░▒▒▒░        \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 43
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m             ░▒▒▒░       \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 39
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m              ░▒▒▒░      \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 41
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m               ░▒▒░░     \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 39
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m                ░▒▒░░    \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 44
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m                 ░▒▒░░   \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 39
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m                  ░███░  \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 41
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m                   ░███░ \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 39
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m                    ░███░\e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 44
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m                   ░▒█░░ \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 39
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m                  ░▒█░░  \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 42
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m                 ░▒█░░   \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 40
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m                ░░█▒░    \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 41
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m               ░░█▒░     \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 41
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m              ░░█▒░      \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 43
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m             ░▒▒░░       \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 40
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m            ░▒▒░░        \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 41
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m           ░▒▒░░         \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 41
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m          ░░▒▒░          \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 44
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m         ░░▒▒░           \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 43
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m        ░░▒▒░            \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 43
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m       ░▒▒▒░             \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 40
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m      ░▒▒▒░              \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 43
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m     ░▒▒▒░               \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 39
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m    ░▒▒░░                \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 43
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m   ░▒▒░░                 \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 39
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m  ░▒▒░░                  \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 43
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m ░███░                   \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 40
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m░███░                    \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 42
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m ░███░                   \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 44
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m  ░▒█░░                  \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 40
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m   ░▒█░░                 \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 43
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m    ░▒█░░                \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 39
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m     ░░█▒░               \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 40
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m      ░░█▒░              \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 43
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m       ░░█▒░             \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 43
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m        ░▒▒░░            \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 39
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m         ░▒▒░░           \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 44
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m          ░▒▒░░          \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 41
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m           ░░▒▒░         \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 42
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m            ░░▒▒░        \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 45
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m             ░░▒▒░       \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 42
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m              ░▒▒▒░      \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 40
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m               ░▒▒▒░     \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 43
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m                ░▒▒▒░    \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 43
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m                 ░▒▒░░   \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 39
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m                  ░▒▒░░  \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 42
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m                   ░▒▒░░ \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 41
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m                    ░███░\e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 39
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m                   ░███░ \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 44
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m                  ░███░  \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 42
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m                 ░▒█░░   \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 42
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m                ░▒█░░    \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 39
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m               ░▒█░░     \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 42
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m              ░░█▒░      \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 44
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m             ░░█▒░       \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 45
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m            ░░█▒░        \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 41
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m           ░▒▒░░         \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 41
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m          ░▒▒░░          \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 41
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m         ░▒▒░░           \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 43
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m        ░░▒▒░            \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 39
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m       ░░▒▒░             \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 45
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m      ░░▒▒░              \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 40
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m     ░▒▒▒░               \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 45
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m    ░▒▒▒░                \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 43
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m   ░▒▒▒░                 \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 39
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m  ░▒▒░░                  \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 43
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m ░▒▒░░                   \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 43
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m░▒▒░░                    \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 43
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m ░███░                   \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 40
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m  ░███░                  \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 44
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m   ░███░                 \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 42
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m    ░▒█░░                \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 40
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m     ░▒█░░               \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 43
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m      ░▒█░░              \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 39
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m       ░░█▒░             \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 44
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m        ░░█▒░            \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 39
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m         ░░█▒░           \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 43
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m          ░▒▒░░          \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 41
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m           ░▒▒░░         \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 43
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m            ░▒▒░░        \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 40
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m             ░░▒▒░       \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 44
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m              ░░▒▒░      \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 40
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m               ░░▒▒░     \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 44
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m                ░▒▒▒░    \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 41
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m                 ░▒▒▒░   \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 42
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m                  ░▒▒▒░  \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 43
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m                   ░▒▒░░ \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 40
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m                    ░▒▒░░\e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 41
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m                   ░▒▒░░ \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 43
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m                  ░███░  \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 40
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m                 ░███░   \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 41
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m                ░███░    \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 42
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m               ░▒█░░     \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 43
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m              ░▒█░░      \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 38
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m             ░▒█░░       \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 43
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m            ░░█▒░        \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 41
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m           ░░█▒░         \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 40
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m          ░░█▒░          \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 43
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m         ░▒▒░░           \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 39
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m        ░▒▒░░            \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 42
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m       ░▒▒░░             \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 39
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m      ░░▒▒░              \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 43
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m     ░░▒▒░               \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 40
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m    ░░▒▒░                \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 40
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m   ░▒▒▒░                 \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 41
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m  ░▒▒▒░                  \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 42
+    content: "\e[1G\e[2K\e[3A\r\n\e[1m\e[48;5;233m\e[38;5;146m                [ \e[39m\e[49m\e[22m\e[48;5;16m\e[38;5;170m ░▒▒▒░                   \e[39m\e[49m\e[1m\e[48;5;233m\e[38;5;146m ]        \e[39m\e[49m\e[22m\e[1m\e[48;5;233m\e[38;5;189m\e[39m\e[49m\e[22m\r\n\e[1m\e[48;5;233m\e[38;5;189m                                                     \e[39m\e[49m\e[22m\r\n"
+  - delay: 33
+    content: "cylon is off\r\nyou need to turn the cylon off, or he'll overwrite terminal lines\r\n"
+  - delay: 15
+    content: "\e]7;file://Adams-MBP.home/Users/adammeola/repos/local_repos/random/node/busy-cylon\aAdams-MBP:busy-cylon adammeola$ "
+  - delay: 1408
+    content: "logout\r\nSaving session..."
+  - delay: 14
+    content: "\r\n...copying shared history..."
+  - delay: 7
+    content: "\r\n...saving history..."
+  - delay: 7
+    content: "truncating history files...\r\n...completed.\r\n"
