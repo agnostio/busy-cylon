@@ -1,7 +1,7 @@
 {
   "name": "busy-cylon",
-  "version": "1.0.4",
-  "description": "Cylon ===================",
+  "version": "1.0.6",
+  "description": "A nifty little cylon, to run in the terminal; to let you know that your process is still working, and not frozen.  Basically, an alternative to the 3 dots... ",
   "main": "index.js",
   "scripts": {
     "test": "node test"
